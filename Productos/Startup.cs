@@ -43,7 +43,7 @@ namespace presupuesto_final
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.UseSoapEndpoint<iProductos>("/Presupuesto.equipo3", new SoapEncoderOptions(), SoapSerializer.DataContractSerializer);
+                endpoints.UseSoapEndpoint<iProductos>("/Productos.equipo3", new SoapEncoderOptions(), SoapSerializer.DataContractSerializer);
             });
         }
     }
